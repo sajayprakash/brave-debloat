@@ -51,6 +51,9 @@ main() {
   remove_pref BraveWaybackMachineEnabled
   remove_pref BraveWebDiscoveryEnabled
   remove_pref BraveP3AEnabled
+  remove_pref PasswordManagerEnabled
+  remove_pref AutofillCreditCardEnabled
+  remove_pref AutofillAddressEnabled
 
   if ! plist_has_entries; then
     rm -f "$PLIST_PATH"
