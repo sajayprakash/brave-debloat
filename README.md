@@ -4,7 +4,7 @@ This project aims to debloat Brave Browser and provide a Brave Origin-like exper
 
 ## How it works
 
-The scripts leverage Brave's group policies and enterprise management features. Learn more in [Brave's Group Policy documentation](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).
+The scripts leverage Brave's group policies and enterprise management features. Learn more at [Brave's Group Policy documentation](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy) and [Chrome Enterprise policy list](https://chromeenterprise.google/policies/).
 
 ## Features Disabled
 
