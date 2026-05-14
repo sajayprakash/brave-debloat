@@ -54,6 +54,10 @@ main() {
   remove_pref PasswordManagerEnabled
   remove_pref AutofillCreditCardEnabled
   remove_pref AutofillAddressEnabled
+  remove_pref HighEfficiencyModeEnabled
+  remove_pref MemorySaverModeSavings
+  remove_pref DnsOverHttpsMode
+  remove_pref DnsOverHttpsTemplates
 
   if ! plist_has_entries; then
     rm -f "$PLIST_PATH"

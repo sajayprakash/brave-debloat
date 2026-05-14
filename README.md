@@ -1,6 +1,6 @@
 # Brave Debloat
 
-This project aims to debloat Brave Browser and provide a Brave Origin-like experience without having to manually check and toggle settings.
+This project aims to debloat Brave Browser and provide a Brave Origin-like experience without having to manually check and toggle settings. It also adds a few nice tweaks to make the browser experience better.
 
 ## How it works
 
@@ -25,3 +25,9 @@ Brave Origin reference: [What is Brave Origin?](https://support.brave.app/hc/en-
 - Password Manager
 - Payment methods autofill
 - Addresses autofill
+
+## Extra Tweaks
+
+- High Efficiency mode: Enabled
+- Memory Saver: Balanced
+- Secure DNS: Cloudflare (Blocks Malware)
