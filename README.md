@@ -28,6 +28,7 @@ Brave Origin reference: [What is Brave Origin?](https://support.brave.app/hc/en-
 
 ## Extra Tweaks
 
-- High Efficiency mode: Enabled
-- Memory Saver: Balanced
-- Secure DNS: Cloudflare (Blocks Malware)
+- High Efficiency mode enabled
+- Memory Saver set to balanced
+- Secure DNS set to Cloudflare (Blocks Malware)
+- Warn before quitting enabled (MacOS only)

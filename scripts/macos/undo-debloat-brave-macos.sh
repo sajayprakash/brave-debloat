@@ -58,6 +58,7 @@ main() {
   remove_pref MemorySaverModeSavings
   remove_pref DnsOverHttpsMode
   remove_pref DnsOverHttpsTemplates
+  remove_pref WarnBeforeQuittingEnabled
 
   if ! plist_has_entries; then
     rm -f "$PLIST_PATH"

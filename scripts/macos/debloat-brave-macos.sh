@@ -57,6 +57,7 @@ main() {
   add_pref MemorySaverModeSavings integer 1
   add_pref DnsOverHttpsMode string secure
   add_pref DnsOverHttpsTemplates string https://security.cloudflare-dns.com/dns-query{?dns}
+  add_pref WarnBeforeQuittingEnabled bool true
 
   chown root:wheel "$PLIST_PATH"
   chmod 644 "$PLIST_PATH"
@@ -82,6 +83,7 @@ main() {
   printf '%s\n' '  Enabled High Efficiency mode'
   printf '%s\n' '  Set Memory Saver to balanced'
   printf '%s\n' '  Set Secure DNS to Cloudflare'
+  printf '%s\n' '  Enabled warn before quitting'
 
   echo "Brave managed preferences written to: $PLIST_PATH"
 }
