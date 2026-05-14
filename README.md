@@ -22,3 +22,6 @@ Brave Origin reference: [What is Brave Origin?](https://support.brave.app/hc/en-
 - Wallet
 - Wayback Machine
 - Web Discovery Project
+- Password Manager
+- Payment methods autofill
+- Addresses autofill

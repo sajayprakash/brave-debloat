@@ -49,6 +49,9 @@ main() {
   add_pref BraveWaybackMachineEnabled false
   add_pref BraveWebDiscoveryEnabled false
   add_pref BraveP3AEnabled false
+  add_pref PasswordManagerEnabled false
+  add_pref AutofillCreditCardEnabled false
+  add_pref AutofillAddressEnabled false
 
   chown root:wheel "$PLIST_PATH"
   chmod 644 "$PLIST_PATH"
@@ -68,6 +71,9 @@ main() {
   printf '%s\n' '  Disabled Wallet'
   printf '%s\n' '  Disabled Wayback Machine'
   printf '%s\n' '  Disabled Web Discovery Project'
+  printf '%s\n' '  Disabled Password Manager'
+  printf '%s\n' '  Disabled payment methods autofill'
+  printf '%s\n' '  Disabled addresses autofill'
 
   echo "Brave managed preferences written to: $PLIST_PATH"
 }
